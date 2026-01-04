@@ -11,9 +11,9 @@ package com.atomikos.spring;
 import jakarta.transaction.UserTransaction;
 
 import org.junit.Test;
-import org.springframework.boot.autoconfigure.transaction.TransactionProperties;
 import org.springframework.boot.jdbc.XADataSourceWrapper;
 import org.springframework.boot.jms.XAConnectionFactoryWrapper;
+import org.springframework.boot.transaction.autoconfigure.TransactionProperties;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.transaction.jta.JtaTransactionManager;
 
