@@ -10,8 +10,8 @@
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
-		<spring.version>6.0.3</spring.version>
-		<boot.version>3.0.1</boot.version>
+		<spring.version>7.0.2</spring.version>
+		<boot.version>4.0.1</boot.version>
 	</properties>
 	<modules>
 		<module>transactions-spring-boot4</module>
